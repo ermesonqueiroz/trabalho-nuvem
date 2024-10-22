@@ -1,0 +1,9 @@
+<h1>Lista de postagens fictícias</h1>
+
+<ul>
+  {{#each posts}}
+    <li>
+      <a href="/posts/{{ this.id }}">{{this.title}}</a>
+    </li>
+  {{/each}}
+</ul>
